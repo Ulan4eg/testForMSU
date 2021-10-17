@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+
+  test-for-msu:
+    container_name: test-for-msu
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
