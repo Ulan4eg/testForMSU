@@ -1,0 +1,31 @@
+.App {
+  --space: 5px;
+}
+
+.body {
+  display: flex;
+  flex: 1;
+}
+
+.pagerLine {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.pagerLine button {
+  border-width: 0px;
+  background-color: white;
+}
+
+.list {
+  flex: 1;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}

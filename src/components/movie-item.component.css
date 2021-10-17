@@ -1,0 +1,33 @@
+.movie-item {
+  padding: var(--space);
+  cursor: pointer;
+}
+
+.movie-item:hover {
+  background-color: lightgrey;
+}
+
+.movie-title {
+  font-size: 30px;
+}
+
+.movie-description {
+  margin-top: var(--space);
+  color: rgb(100, 100, 100);
+}
+
+.movie-footer {
+  margin-top: var(--space);
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(100, 100, 100);
+}
+
+.row:nth-child(odd) {
+  flex-direction: row;
+}
+.row:nth-child(even) {
+  flex-direction: row-reverse;
+}
